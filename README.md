@@ -1,16 +1,6 @@
 # widgets
 
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+The GreetingWidget is a StatelessWidget designed to display a greeting message. You can customize the greeting message by passing it as a parameter.
+The CounterWidget is a StatefulWidget that displays a counter starting at 0. Pressing the "Increment" button increases the counter value.
+A widget tree is created with a depth of at least 3 levels. It includes nested instances of both GreetingWidget and CounterWidget, showcasing the composition of widgets.
+Widgets are styled with various properties, such as fontSize, fontWeight, margin, padding, and decoration. The styling enhances the visual appeal and structure of the widgets.
